@@ -1,10 +1,217 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Bauunternehmen</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pawel Chrzanowski – Bauunternehmen in Hofheim am Taunus</title>
+  <meta name="description" content="Bauunternehmen Pawel Chrzanowski in Hofheim am Taunus. Zuverlässig, regional, termintreu. Einsatzgebiet: Main-Taunus-Kreis." />
+
+  <!-- Schriften -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" />
 </head>
 <body>
-  <h1>Hallo Welt – meine erste Bau-Webseite!!!</h1>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="/">Bauunternehmen Pawel Chrzanowski</a>
+      <nav class="menu">
+        <a href="#leistungen">Leistungen</a>
+        <a href="#projekte">Eindrücke</a>
+        <a href="#ueber-uns">Über uns</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <h1>Bauen im Main-Taunus-Kreis –<br> zuverlässig &amp; termintreu</h1>
+        <p>Wir sind Ihr regionaler Partner in <strong>Hofheim am Taunus</strong> und arbeiten im Umkreis des <strong>Main-Taunus-Kreises</strong>.</p>
+        <div class="cta">
+          <a class="btn primary" href="#kontakt">Angebot anfragen</a>
+          <a class="btn secondary" href="tel:015214068150">Jetzt anrufen</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wellen-Trenner -->
+    <div class="wave-sep" aria-hidden="true">
+      <svg viewBox="0 0 1440 90" preserveAspectRatio="none">
+        <path d="M0,64 C240,96 480,32 720,48 C960,64 1200,112 1440,64 L1440,0 L0,0 Z"></path>
+      </svg>
+    </div>
+
+    <!-- Trust/Stats -->
+    <section class="stats">
+      <div class="container stats-row">
+        <div class="stat"><span>10+</span> Jahre Erfahrung</div>
+        <div class="stat"><span>100+</span> Projekte</div>
+        <div class="stat"><span>⟲</span> Termintreue &amp; Qualität</div>
+      </div>
+    </section>
+
+    <!-- Leistungen -->
+    <section id="leistungen" class="section">
+      <div class="container">
+        <h2>Unsere Leistungen</h2>
+        <div class="cards">
+          <article class="card card-pro">
+            <div class="icon"><i data-lucide="ruler"></i></div>
+            <h3>Trockenbau</h3>
+            <p>Innenausbau mit modernen Systemen – präzise, sauber und flexibel anpassbar.</p>
+          </article>
+          <article class="card card-pro">
+            <div class="icon"><i data-lucide="trees"></i></div>
+            <h3>Außenanlagen</h3>
+            <p>Pflaster, Einfahrten, Terrassen und Entwässerung – fachgerecht aus einer Hand.</p>
+          </article>
+          <article class="card card-pro">
+            <div class="icon"><i data-lucide="home"></i></div>
+            <h3>Fassadenarbeiten</h3>
+            <p>Hausfassaden gestalten & sanieren – langlebig, energieeffizient und optisch stark.</p>
+          </article>
+          <article class="card card-pro">
+            <div class="icon"><i data-lucide="wrench"></i></div>
+            <h3>Sanierungen</h3>
+            <p>Von Teil- bis Komplettsanierung – wir bringen Ihr Objekt zuverlässig auf Stand.</p>
+          </article>
+          <article class="card card-pro">
+            <div class="icon"><i data-lucide="grid-2x2"></i></div>
+            <h3>Fliesenarbeiten</h3>
+            <p>Bäder, Küchen & Wohnräume – exakte Verlegung für ein perfektes Finish.</p>
+          </article>
+          <article class="card card-pro">
+            <div class="icon"><i data-lucide="building-2"></i></div>
+            <h3>Altbausanierung</h3>
+            <p>Historische Substanz erhalten & modernisieren – effizient und mit Feingefühl.</p>
+          </article>
+        </div>
+        <p class="note">Diese Übersicht zeigt unsere Hauptleistungen – gerne beraten wir Sie individuell zu Ihrem Projekt.</p>
+      </div>
+    </section>
+
+    <!-- Galerie -->
+    <section id="projekte" class="section">
+      <div class="container">
+        <h2>Eindrücke & Symbolfotos</h2>
+        <p class="note">Die folgenden Bilder dienen nur der Illustration (Symbolfotos, keine echten Referenzen).</p>
+        <div class="grid-3 gallery">
+          <figure class="tile badge-symbol">
+            <img src="images/projekt2.jpg" alt="Symbolfoto: Baupläne und Werkzeuge">
+            <figcaption>Planung & Vorbereitung</figcaption>
+          </figure>
+          <figure class="tile badge-symbol">
+            <img src="images/projekt3.jpg" alt="Symbolfoto: Baustelle mit Kran">
+            <figcaption>Material & Ausführung</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Über uns -->
+    <section id="ueber-uns" class="section about">
+      <div class="container about-grid">
+        <div>
+          <h2>Über uns</h2>
+          <p>
+            Hallo und herzlich willkommen! Mein Name ist <strong>Pawel Chrzanowski</strong> 
+            und ich führe mein Bauunternehmen seit über 10 Jahren mit Leidenschaft und Einsatz hier in Deutschland.
+          </p>
+          <p>
+            Ursprünglich aus Polen stammend, habe ich 2012 den Schritt gewagt, meine Erfahrung und mein Handwerk auch in Deutschland 
+            einzubringen. Seitdem durfte ich zahlreiche Projekte begleiten – vom <strong>Trockenbau</strong> über 
+            <strong>Außenanlagen</strong> bis hin zu <strong>Fliesenarbeiten, Sanierungen und Gartenbau</strong>.
+          </p>
+          <p>
+            Was mich und mein Team auszeichnet: <strong>Zuverlässigkeit, Termintreue und die enge Zusammenarbeit mit unseren Kunden</strong>. 
+            Mir ist wichtig, dass Sie sich gut beraten fühlen und genau das Ergebnis erhalten, das Sie sich wünschen.
+          </p>
+          <p>
+            Gerne bespreche ich mit Ihnen Ihr Vorhaben persönlich und mache Ihnen ein unverbindliches Angebot – 
+            die Entscheidung liegt ganz bei Ihnen.
+          </p>
+          <div class="cta">
+            <a href="#kontakt" class="btn primary">Unverbindliches Angebot anfragen</a>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="images/about.jpg" alt="Symbolfoto: Pawel Chrzanowski privat">
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section id="kontakt" class="section">
+      <div class="container contact-grid">
+        <div>
+          <h2>Kontakt</h2>
+          <p><strong>Pawel Chrzanowski</strong> – Bauunternehmen, Hofheim am Taunus</p>
+          <ul class="contact">
+            <li>E-Mail: <a href="mailto:p.chrzanowski1@onet.eu">p.chrzanowski1@onet.eu</a></li>
+            <li>Telefon: <a href="tel:015214068150">015214068150</a></li>
+            <li>Einsatzgebiet: Umkreis Main-Taunus-Kreis</li>
+          </ul>
+
+          <!-- Kontaktformular mit Weiterleitung -->
+          <form id="contactForm" class="form" action="https://formspree.io/f/movkvawg" method="POST">
+            <input required name="name" placeholder="Name" />
+            <input required type="email" name="email" placeholder="E-Mail" />
+            <input name="telefon" placeholder="Telefon" />
+            <textarea required name="nachricht" rows="4" placeholder="Ihr Anliegen…"></textarea>
+
+            <label class="consent" style="display:flex; gap:8px; align-items:flex-start; font-size:.95rem;">
+              <input type="checkbox" name="consent" required style="margin-top:4px;">
+              <span>
+                Ich habe die <a href="legal/datenschutz.html" target="_self">Datenschutzerklärung</a> gelesen
+                und bin mit der Verarbeitung meiner Angaben zur Kontaktaufnahme einverstanden.
+              </span>
+            </label>
+
+            <input type="hidden" name="_subject" value="Neue Anfrage über die Website (pawelbau)" />
+            <input type="text" name="_gotcha" style="display:none">
+            <!-- Weiterleitung nach Absenden -->
+            <input type="hidden" name="_next" value="danke.html" />
+
+            <button class="btn primary" type="submit">Absenden</button>
+          </form>
+        </div>
+
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps?q=Hofheim%20am%20Taunus&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Karte: Hofheim am Taunus"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer">
+      <p>© <span id="y"></span> Bauunternehmen Pawel Chrzanowski</p>
+      <nav>
+        <a href="legal/impressum.html">Impressum</a>
+        <a href="legal/datenschutz.html">Datenschutz</a>
+      </nav>
+    </div>
+    <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  </footer>
+
+  <!-- Mobile Sticky Call -->
+  <a class="sticky-call" href="tel:015214068150">📞 Jetzt anrufen</a>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>lucide.createIcons();</script>
 </body>
 </html>
